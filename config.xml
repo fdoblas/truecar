@@ -7,6 +7,7 @@
         version   = "1.0.0">
 
     <name>Curso HTML5</name>
+    <content src="https://intine-quinia.codio.io/index.html" />
     <description>
         Esto es la descripción de la aplicación
     </description>
