@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>trueCar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.css" />
+    <script src="jquery-1.11.0.js"></script>
+    <script src="jquery.mobile-1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    <script src="fastclick.js"></script>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="estilos.css" />
+</head>
+
+<body>
+    <div id="container">
+        <div data-role="page" id="inicio">
+            <div data-role="header" id="cabecera">
+                <a href="#preferencias" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext"></a>
+                <h1>TRUECar</h1>
+                <a href="#login">Sign in</a>
+            </div>
+            <div data-role="main" class="ui-content" id="principal">
+                <h3>Never Overpay</h3>
+                <p>TrueCar users save an average of $3.046</p>
+                <div data-role="controlgroup" data-type="vertical" id="control">
+                    <a href="#" class="ui-btn ui-icon-carat-d ui-btn-icon-right">Select a Make:</a>
+                    <a href="#" class="ui-btn ui-icon-carat-d ui-btn-icon-right">Select a Model:</a>
+                    <a href="#" class="ui-btn ui-btn-icon-right ui-icon-navigation">
+                        <input type="number" placeholder="Enter ZIP Code...">
+                    </a>
+
+                </div>
+                <a href="#" class="ui-btn ui-corner-all" id="next">Next...</a>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"><a href="#" class="ui-btn ui-corner-all" id="works">How it works</a>
+                    </div>
+                    <div class="ui-block-b"></div>
+                </div>
+            </div>
+            <div data-role="panel" id="preferencias" data-display="overlay">
+                <div data-role="controlgroup" data-type="vertical" id="menu-preferencias">
+                    <li><a href="#" class="ui-btn">Izquierda</a>
+                    </li>
+                    <li><a href="#" class="ui-btn">Menu</a>
+                    </li>
+                    <li><a href="#" class="ui-btn">Opciones</a>
+                    </li>
+                    <li><a href="#pag1" class="ui-btn" data-rel="close">Cerrar</a>
+                    </li>
+                </div>
+            </div>
+
+        </div>
+        <div data-role="page" id="login">
+            <div data-role="header" id="cabecera">
+                <a href="#preferencias2" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext"></a>
+                <h1>TRUECar</h1>
+                <a href="#inicio">Principal</a>
+            </div>
+            <div data-role="main">
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#">
+                            <img src="http://img.truecar.com//colorid_images/v1/976266/276x142/f3q">
+                            <h2>2014 Audi A4</h2>
+                            <p>2.0T quattro triptonic</p>
+                        </a>
+                    </li>
+                </ul>
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" class="ui-btn">Colors &amp; Options</a>
+                        </li>
+                        <li><a href="#" class="ui-btn">Incentives</a>
+                        </li>
+                    </ul>
+                </div>
+                <div data-role="navbar">
+                    <ul>
+                        <li>
+                            <div data-role="navbar">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                        <h6>Estimated</h6>
+                                        <h5>Loan Payment</h5>
+                                        <p>$340</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                        <h6>Estimated</h6>
+                                        <h5>Savings</h5>
+                                        <p>$340</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <h6>Estimated</h6>
+                                <h5>TrueCar Dealing price</h5>
+                                <p>$340</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <img src="images/image.jpeg" id="grafico">
+                <div data-role="controlgroup" data-type="vertical" class="ui-content">
+                    <li><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r ui-">Photo Gallery</a></li>                  
+                    <li><a href="#" class="ui-btn ui-btn-icon-right ui-icon-carat-r">Review</a></li>                  
+                </div>
+                <p>
+                The are currently no TrueCar Certified Dealers offering Guaranteed Savings on this 2014 ASton Martin Rapide S withing 150 miles of Flemingsburg, KY.
+       
+                </p>
+                <div data-role="footer">
+                    <a href="#" class="ui-btn" data-rel="back">Atrás</a>
+                </div>
+            </div>
+            <div data-role="panel" id="preferencias2" data-display="overlay">
+                <div data-role="controlgroup" data-type="vertical" id="menu-preferencias">
+                    <li><a href="#" class="ui-btn">Izquierda</a>
+                    </li>
+                    <li><a href="#" class="ui-btn">Menu</a>
+                    </li>
+                    <li><a href="#" class="ui-btn">Opciones</a>
+                    </li>
+                    <li><a href="#pag1" class="ui-btn" data-rel="close">Cerrar</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

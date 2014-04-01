@@ -1,0 +1,53 @@
+#container{
+    width:320px;
+}
+
+#next{
+    background-color:orange;
+    color:white;
+    font-weight:100;
+    border:0;
+}
+
+.blanco{
+    background-color:white;
+}
+
+#cabecera{
+    background-color:#000066;
+    color:white;
+}
+
+#cabecera a{
+    background-color:#000066;
+    color:white;
+    border:0;
+}
+
+#works{
+    background-color: #3366CC;
+    opacity:0.5;
+    color:white;
+    border:0;
+}
+
+#inicio{
+    background-image:url(http://a.tcimg.net/tcdc/113.0-5372/images/mobile/bg-mobile-new-homepage.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+#principal{
+    color:white;
+    font-weight:100;
+    
+}
+
+#control a{
+    background-color:white;
+}
+
+
+#grafico{
+    width:100%;
+}
